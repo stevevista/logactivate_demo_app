@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="top.deepzone.rjzhou.logact.fragments.LogFragment">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/normal_upload"
+        android:id="@+id/normal_upload"
+        android:layout_marginTop="24dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/multi_upload"
+        android:id="@+id/trunk_upload"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/normal_upload"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/read_ota_version"
+        android:id="@+id/ota_version"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/trunk_upload"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/range_download"
+        android:id="@+id/range_download"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/ota_version"/>
+
+</RelativeLayout>
